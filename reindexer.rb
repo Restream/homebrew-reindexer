@@ -16,7 +16,6 @@ class Reindexer < Formula
     cd "build" do
       system "cmake", "-DCMAKE_INSTALL_PREFIX=#{prefix}", ".."
       system "make", "-j8"
-      system "make", "face"
       system "make", "swagger"
       system "make", "install"
     end
