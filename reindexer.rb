@@ -1,9 +1,9 @@
 class Reindexer < Formula
   desc "is an fast document-oriented database im-memory database."
   homepage "https://github.com/restream/reindexer"
-  url "https://github.com/Restream/reindexer/archive/v1.5.0.zip"
-  version "1.5.0"
-  sha256 "783eff5f1f0d4dcd972a9b828189fe094697cfa79fc60c12f8e3368ec5fbe8c8"
+  url "https://github.com/Restream/reindexer/archive/v1.6.0.zip"
+  version "1.6.0"
+  sha256 "2e5d7718565f923d1db10df43a0db05b37cfce2a1a2cc7e01899ec4d1b612fe0"
 
   head "https://github.com/restream/reindexer.git"
 
@@ -17,6 +17,7 @@ class Reindexer < Formula
       system "cmake", "-DCMAKE_INSTALL_PREFIX=#{prefix}", ".."
       system "make", "-j8"
       system "make", "swagger"
+      system "make", "face"
       system "make", "install"
     end
 
