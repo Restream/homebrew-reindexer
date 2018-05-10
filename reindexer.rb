@@ -26,6 +26,7 @@ class Reindexer < Formula
 
     inreplace "#{buildpath}/build/cpp_src/cmd/reindexer_server/contrib/config.yml" do |s|
       s.gsub! "/var/lib/reindexer", "#{var}/reindexer"
+      s.gsub! "/var/log/reindexer", "#{var}/log/reindexer"
       s.gsub! "user:", "# user:"
     end
 
