@@ -1,9 +1,9 @@
 class Reindexer < Formula
   desc "is an fast document-oriented database im-memory database."
   homepage "https://github.com/restream/reindexer"
-  url "https://github.com/Restream/reindexer/archive/v1.10.0.zip"
-  version "1.10.0"
-  sha256 "a8ea92a9f4dfdfc0d31a3e360b9d1eac1aec42a2ee2a6e005de1f187670ad757"
+  url "https://github.com/Restream/reindexer/archive/v1.10.1.zip"
+  version "1.10.1"
+  sha256 "199c1dedb6056650ed99c8c081c97eb67ce922944e5ed401d4a31c31aea1d0cf"
 
   head "https://github.com/restream/reindexer.git"
 
