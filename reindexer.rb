@@ -1,4 +1,5 @@
 class Reindexer < Formula
+  env :std
   desc "is an fast document-oriented database im-memory database."
   homepage "https://github.com/restream/reindexer"
   url "https://github.com/Restream/reindexer/archive/v1.10.3.zip"
