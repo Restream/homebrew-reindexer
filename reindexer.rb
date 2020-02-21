@@ -2,9 +2,9 @@ class Reindexer < Formula
   env :std
   desc "is an fast document-oriented database im-memory database."
   homepage "https://github.com/restream/reindexer"
-  url "https://github.com/Restream/reindexer/archive/v2.5.3.zip"
-  version "2.5.3"
-  sha256 "b8609ee7f739f41867d8cce945f03d654f2f7355bebd038e074faf6727d924cf"
+  url "https://github.com/Restream/reindexer/archive/v2.6.0.zip"
+  version "2.6.0"
+  sha256 "7b3ca586768db8ea39cb9478ea118a7de97ba28a98ba7d418891f88e04cb864c"
 
   head "https://github.com/restream/reindexer.git"
 
@@ -16,7 +16,7 @@ class Reindexer < Formula
     mkdir "build"
     cd "build" do
       system "cmake", "-DCMAKE_INSTALL_PREFIX=#{prefix}", ".."
-      system "make", "-j8", "reindexer_server", "reindexer_tool", "swagger", "face", "install"
+      system "make", "-j8", "reindexer_server", "reindexer_tool", "install"
     end
 
     mkdir "#{var}/reindexer"
