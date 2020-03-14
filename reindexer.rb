@@ -59,7 +59,11 @@ class Reindexer < Formula
     </plist>
     EOS
   end
-
+  bottle do
+    root_url "http://repo.reindexer.org/brew-bottles"
+    cellar :any
+    sha256 "65b0f2dde3a39ea842db9057524afa74bd7396d2b2c9e3136d869aa04df3ca6c" => :mojave
+  end
   def caveats; <<-EOS
     The configuration file is available at:
       #{etc}/reindexer.conf
