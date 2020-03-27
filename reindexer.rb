@@ -2,9 +2,9 @@ class Reindexer < Formula
   env :std
   desc "is an fast document-oriented database im-memory database."
   homepage "https://github.com/restream/reindexer"
-  url "https://github.com/Restream/reindexer/archive/v2.6.2.zip"
-  version "2.6.2"
-  sha256 "8d91c3f7ba2d1a5307578d89775d041c6f31fd49bd92d4a09da252916ad95112"
+  url "https://github.com/Restream/reindexer/archive/v2.6.3.zip"
+  version "2.6.3"
+  sha256 "63c0c3a34a2380beb8043e16806aa637b19a7eb2760ce2878ff8f55dce8da7f9"
 
   head "https://github.com/restream/reindexer.git"
 
