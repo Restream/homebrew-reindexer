@@ -62,7 +62,7 @@ class Reindexer < Formula
   bottle do
     root_url "http://repo.reindexer.org/brew-bottles"
     cellar :any
-    sha256 "edf8584223d6375baf5fb532b9f38451d9860e94c3577a1df38233feecdf5197" => :mojave
+    sha256 "d5db698cb29e9e1c494668819d4c15cd5142e4bf42063fedfafb20503923359c" => :mojave
   end
   def caveats; <<-EOS
     The configuration file is available at:
