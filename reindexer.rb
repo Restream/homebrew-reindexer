@@ -4,7 +4,7 @@ class Reindexer < Formula
   homepage "https://github.com/restream/reindexer"
   url "https://github.com/Restream/reindexer/archive/v2.11.0.zip"
   version "2.11.0"
-  sha256 "4e26a3b9200f153cf19e9303da6d844e3dda8a6f29c26580c7d8e51da7dfd3a0"
+  sha256 "4dcbfb3c14fb6b909891dfade2479e7880850ad079540ffa582eccb29283ebdb"
 
   head "https://github.com/restream/reindexer.git"
 
