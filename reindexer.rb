@@ -60,8 +60,7 @@ class Reindexer < Formula
     EOS
   end
   bottle do
-    root_url "https://homebrew.bintray.com/bottles-reindexer"
-    rebuild 1
+    root_url "http://repo.reindexer.org/brew-bottles"
     sha256 cellar: :any, mojave: "c0654f716519f4f1e858f0e551e4321ce7ba217fb1b1d35a51bfc6c9165f0060"
   end
   def caveats; <<-EOS
