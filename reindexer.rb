@@ -2,8 +2,8 @@ class Reindexer < Formula
   env :std
   desc "is an fast document-oriented database im-memory database."
   homepage "https://github.com/restream/reindexer"
-  url "https://github.com/Restream/reindexer/archive/v3.1.0.zip"
-  version "3.1.0"
+  url "https://github.com/Restream/reindexer/archive/v3.1.1.zip"
+  version "3.1.1"
   sha256 "4bc73114d2c94380e6826f74728b89180fcc5ba0a62b4cb9b7ae5f34e3062924"
 
   head "https://github.com/restream/reindexer.git"
@@ -59,10 +59,10 @@ class Reindexer < Formula
     </plist>
     EOS
   end
-  bottle do
-    root_url "http://repo.reindexer.org/brew-bottles"
-    sha256 cellar: :any, mojave: "bf2988d1c728640b77e48d05c8187a733ce311c9571703254f5bd4ed46fb3158"
-  end
+  #bottle do
+    #root_url "http://repo.reindexer.org/brew-bottles"
+    #sha256 cellar: :any, mojave: "bf2988d1c728640b77e48d05c8187a733ce311c9571703254f5bd4ed46fb3158"
+  #end
   def caveats; <<-EOS
     The configuration file is available at:
       #{etc}/reindexer.conf
