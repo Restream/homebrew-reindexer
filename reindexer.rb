@@ -2,14 +2,16 @@ class Reindexer < Formula
   env :std
   desc "is a fast document-oriented in-memory database."
   homepage "https://github.com/restream/reindexer"
-  url "https://github.com/Restream/reindexer/archive/v3.31.0.zip"
-  version "3.31.0"
-  sha256 "571f5741574df37cd3d89e822f891119cb795060d34e457fffd2cb14a98a2d45"
+  url "https://github.com/Restream/reindexer/archive/v5.0.0.zip"
+  version "5.0.0"
+  sha256 "9c07dc9ce89066a6da576f316ed0b7adb7a04f45b78bd6d60150d62fde02ff6d"
 
   head "https://github.com/restream/reindexer.git"
 
   depends_on "cmake" => :build
   depends_on "leveldb"
+  depends_on "libomp"
+  depends_on "openblas"
 
   service do
     name macos: "#{plist_name}"
